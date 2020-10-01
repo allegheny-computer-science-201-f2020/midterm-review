@@ -107,27 +107,18 @@ Here are examples of the kinds of questions that might be asked. This is not int
 
   _Solution_:
 
-  Stack | Input | Parsing Action
-
-  $ | int id , id ; $ | Shift
-
-  $ int | id , id ; $ | Reduce T -> int
-
-  $ T | id , id ; $ | Shift
-
-  $ T id | , id ; $ | Reduce L -> id
-
-  $ T L | , id ; $ | Shift
-
-  $ T L , | id ; $ | Shift
-
-  $ T L , id | ; $ | Reduce L -> L , id
-
-  $ T L | ; $ | Shift
-
-  $ T L ; | $ | Reduce S -> T L
-
-  $ S | $ | Accept
+  | Stack | Input | Parsing Action |
+  | --------- |:-------------:|:-------------:|
+  | $ | int id , id ; $ | Shift |
+  | $ int | id , id ; $ | Reduce T -> int |
+  | $ T | id , id ; $ | Shift |
+  | $ T id | , id ; $ | Reduce L -> id |
+  | $ T L | , id ; $ | Shift |
+  | $ T L , | id ; $ | Shift |
+  | $ T L , id | ; $ | Reduce L -> L , id |
+  | $ T L | ; $ | Shift |
+  | $ T L ; | $ | Reduce S -> T L |
+  | $ S | $ | Accept |
 
 10. Briefly explain the difference between the scope of a binding and the lifetime of a binding.
 
