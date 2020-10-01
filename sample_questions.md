@@ -59,7 +59,7 @@ Here are examples of the kinds of questions that might be asked. This is not int
 9. Consider the following grammar. Use the shift-reduce algorithm to parse the input string `int id , id ;`. Show your steps.
 
   ```
-  S -> T L
+  S -> T L ;
 
   T -> int | float
 

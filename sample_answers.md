@@ -67,7 +67,7 @@ Here are examples of the kinds of questions that might be asked. This is not int
   | S-> S + E | S + E | 
   | E-> a | S + a | 
   | S-> E | E + a | 
-  | E-> E _a | E_ a + a | 
+  | E-> E * a | E * a + a | 
   | E-> a | a * a + a | 
 
 7. Consider the following syntax for expressions involving addition and field selection. Show that this grammar is ambiguous.
@@ -96,7 +96,7 @@ Here are examples of the kinds of questions that might be asked. This is not int
 9. Consider the following grammar. Use the shift-reduce algorithm to parse the input string `int id , id ;`. Show your steps.
 
   ```
-  S -> T L
+  S -> T L;
 
   T -> int | float
 
