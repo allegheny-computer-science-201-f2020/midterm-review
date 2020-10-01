@@ -113,7 +113,7 @@ Here are examples of the kinds of questions that might be asked. This is not int
 
 13. Answer some questions about the following Java program; use the line numbers to identify particular statements or variables. Assume that Widget is a valid class defined in some other file.
 
-  ![Widget Class](/images/widget.png | width=100)
+  ![Widget Class](/images/widget.png){:height="50%" width="50%"}
 
   - Identify an example of a name binding that has a hole in its scope.
 
