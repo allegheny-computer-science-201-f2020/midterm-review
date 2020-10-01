@@ -61,14 +61,14 @@ Here are examples of the kinds of questions that might be asked. This is not int
   a
   ```
 
-  Rule | Derivation of the String
-
-  - Start | S
-  - S-> S + E | S + E
-  - E-> a | S + a
-  - S-> E | E + a
-  - E-> E _a | E_ a + a
-  - E-> a | a * a + a
+  | Rule | Derivation of the String |
+  | --------- |:-------------:|
+  | Start | S | 
+  | S-> S + E | S + E | 
+  | E-> a | S + a | 
+  | S-> E | E + a | 
+  | E-> E _a | E_ a + a | 
+  | E-> a | a * a + a | 
 
 7. Consider the following syntax for expressions involving addition and field selection. Show that this grammar is ambiguous.
 
