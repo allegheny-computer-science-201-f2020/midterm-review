@@ -79,9 +79,7 @@ Here are examples of the kinds of questions that might be asked. This is not int
   field -> id
   ```
 
-  _Solution:_ 
-  
-     <img src="https://github.com/allegheny-computer-science-201-f2020/midterm-review/blob/main/images/tree.png" width="500" height="500">
+  _Solution:_  <img src="https://github.com/allegheny-computer-science-201-f2020/midterm-review/blob/main/images/tree.png" width="500" height="500">
 
 8. Consider the grammar:
 
