@@ -46,6 +46,9 @@ Here are examples of the kinds of questions that might be asked. This is not int
 
   Draw a parse tree or write out the derivation for the string `a * a + a` or explain why no such tree can be constructed.
 
+
+  _Solution_:
+  
   ```
      S
   /      |   \
@@ -57,8 +60,6 @@ Here are examples of the kinds of questions that might be asked. This is not int
   |
   a
   ```
-
-  _Solution_:
 
   Rule | Derivation of the String
 
@@ -78,7 +79,9 @@ Here are examples of the kinds of questions that might be asked. This is not int
   field -> id
   ```
 
-  _Solution:_ ![Two Derivations](/images/tree.png)
+  _Solution:_ 
+  
+     <img src="https://github.com/allegheny-computer-science-201-f2020/midterm-review/blob/main/images/tree.png" width="500" height="500">
 
 8. Consider the grammar:
 
